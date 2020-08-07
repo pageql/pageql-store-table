@@ -1,6 +1,6 @@
 {
   "name": "@pageql/pageql-store-table",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PageQL Table functionality in the form of a Svelte Store",
   "main": "index.js",
   "scripts": {
