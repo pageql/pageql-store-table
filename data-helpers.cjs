@@ -35,4 +35,4 @@ const setUpper = (string) => {
     return string[0].toUpperCase() + string.substring(1);
 };
 
-export { flattenData, stringSepToNorm, setUpper };
+module.exports = { flattenData, stringSepToNorm, setUpper };

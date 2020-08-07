@@ -1,5 +1,5 @@
 const { writable, get } = require('svelte/store');
-const { flattenData, stringSepToNorm, setUpper } = require('./data-helpers.js');
+const { flattenData, stringSepToNorm, setUpper } = require('./data-helpers.cjs');
 
 const gql = require("graphql-tag");
 
