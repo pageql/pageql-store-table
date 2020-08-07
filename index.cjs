@@ -1,7 +1,7 @@
-import { writable, get } from 'svelte/store';
-import { flattenData, stringSepToNorm, setUpper } from './data-helpers.js';
+const { writable, get } = require('svelte/store');
+const { flattenData, stringSepToNorm, setUpper } = require('./data-helpers.js');
 
-import gql from "graphql-tag";
+const gql = require("graphql-tag");
 
 let tableData;
 let tableKeys;
@@ -60,7 +60,7 @@ const onNewTableData = (_data) => {
     }
 };
 
-export {
+module.exports = {
     storeTable,
     stringSepToNorm,
     flattenData,
