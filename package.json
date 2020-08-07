@@ -1,0 +1,34 @@
+{
+  "name": "@pageql/pageql-store-table",
+  "version": "1.0.0",
+  "description": "PageQL Table functionality in the form of a Svelte Store",
+  "main": "index.js",
+  "scripts": {
+    "np": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pageql/pageql-store-table.git"
+  },
+  "keywords": [
+    "table",
+    "datatable",
+    "data-table",
+    "graphql",
+    "svelte"
+  ],
+  "author": "Conner Aldrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pageql/pageql-store-table/issues"
+  },
+  "homepage": "https://github.com/pageql/pageql-store-table#readme",
+  "peerDependencies": {
+    "graphql": "^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0",
+    "graphql-tag": "2.x",
+    "svelte": "3.x"
+  },
+  "devDependencies": {
+    "np": "^6.2.4"
+  }
+}
