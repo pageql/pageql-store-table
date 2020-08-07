@@ -11,7 +11,7 @@ Setup your `pageql.config.js` in your project's root
 ...
 import ApolloClient from 'apollo-boost';
 
-const client = new ApolloClient({ uri: 'your-graphql-url' });
+const client = new ApolloClient({ uri: 'your-graphql-url.com' });
 
 export default {
     ...,
